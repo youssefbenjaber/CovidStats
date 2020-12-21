@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/recherche_result.xml" />
+  <component name="EntryPointsManager">
+    <pattern value="com.mdw.covidstats.ExampleUnitTest" method="addition_isCorrect" />
+    <pattern value="com.mdw.covidstats.ExampleInstrumentedTest" />
+    <pattern value="com.mdw.covidstats.ExampleUnitTest" />
+    <pattern value="com.mdw.covidstats.data.model.LoggedInUser" method="getUserId" />
+    <pattern value="com.mdw.covidstats.ui.login.LoginActivity" />
+    <pattern value="com.mdw.covidstats.MainActivity" />
+    <pattern value="com.mdw.covidstats.data.LoginRepository" method="isLoggedIn" />
+    <pattern value="com.mdw.covidstats.data.model.LoggedInUser" />
+    <pattern value="com.mdw.covidstats.data.LoginDataSource" method="login" />
+    <pattern value="com.mdw.covidstats.data.LoginDataSource" />
+    <pattern value="com.mdw.covidstats.data.LoginRepository" />
+    <pattern value="com.mdw.covidstats.data.LoginRepository" method="logout" />
+    <pattern value="com.mdw.covidstats.ExampleInstrumentedTest" method="useAppContext" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
