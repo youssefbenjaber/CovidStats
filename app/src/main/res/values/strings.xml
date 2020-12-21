@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CovidQuiz</string>
+    <string name="retreat">Retreat</string>
 </resources>

@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="@drawable/background"
     tools:context=".MainActivity">
 
     <TextView
@@ -18,7 +17,7 @@
         android:layout_marginBottom="30dp"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
        />
 <androidx.cardview.widget.CardView
     android:layout_width="match_parent"

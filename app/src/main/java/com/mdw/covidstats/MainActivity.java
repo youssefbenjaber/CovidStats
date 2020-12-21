@@ -2,6 +2,7 @@ package com.mdw.covidstats;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -24,7 +25,9 @@ et_name = findViewById(R.id.et_name);
           @Override
             public void onClick(View V){
               if(et_name.getText().toString().isEmpty()){
-Toast.makeText(MainActivity.this,"please enter your name",Toast.LENGTH_SHORT).show();  }
+Toast.makeText(MainActivity.this,"please enter your name",Toast.LENGTH_SHORT).show();  }else{
+                  startActivity(new Intent(getApplicationContext(),QuizQuestionsActivity.class));
+              }
 
           }
         });
