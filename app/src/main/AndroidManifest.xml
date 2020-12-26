@@ -13,7 +13,7 @@
             android:screenOrientation="portrait"></activity>
         <activity android:name=".ChoiceActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".KidsQuizQuiestionsActivity"
+        <activity android:name=".KidsQuizQuestionsActivity"
             android:screenOrientation="portrait"></activity>
 
         <activity

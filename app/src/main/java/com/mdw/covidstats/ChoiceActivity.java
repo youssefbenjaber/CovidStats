@@ -28,6 +28,14 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
                 }
             });
 
+            btn_2 = findViewById(R.id.btn_2);
+            btn_2.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View V) {
+                    startActivity(new Intent(getApplicationContext(), KidsQuizQuestionsActivity.class));
+                }
+            });
+
 
         }
     }
