@@ -3,30 +3,29 @@ package com.mdw.covidstats;
 public class Questionsk {
 
     public String mQuestionsk[] = {
-            "How is covid 19 passed on?",
-            "How can people iving with HIV protect themselves from covid 19?",
-            "which of the following is an example of physical distancing?",
-            "can covid 19 be cured?",
-            "when should fabric face masks be worn?",
-            "can washing your hands protect you from covid 19?",
-            "can you always tell if somoene has covid 19?",
-            "what are the common symptoms of covid 19?",
-            "How does weather seem to affect the novel coronavirus?"
+            "How can you wash your hands?",
+            "you should wash your hands for",
+            "how can you wear your mask?",
+            "what's a covid-19",
+            "haw can you salute your friends?",
+            "how far shoud you stay to your friends?",
+            "can we see the covid-19?",
+            "how many times should you wash your hands?",
+
 
     };
     private String mChoicesk[][] = {
-            {"Thtough droplets that come from your mouth or nose when you cough or breathe out","in sexual fluids","by drinking unclean water"},
-            {"wash their hands regulary","keep taking their antiretroviral treatement","all of the above"},
-            {"stop going to crowded places and visiting others","stop talking to people you live with","stop speaking to your friends on the phone"},
-            {"yes, hot drinks can cure it","no, it's a death sentence","no, butmost people get better by themselves"},
-            {"on public transport","in small shops","all of the above"},
-            {"yes but only if you use strong bleach","yes normal soap and water is enough","no washing your hands doesnt stop covid 19"},
-            {"no not everyone with covid 19 has symptoms","yes it will be obvious, he will coughs a lot","yes you can tell by his race"},
-            {"continuous cough","fever and tiredness","all of the above"},
-            {"The virus can’t survive in hot, humid climates","Cold temperatures can kill the virus","It is not yet known"}
+            {"by water","by water and soap"},
+            {"10 seconds","20 seconds"},
+            {"on your mouth only","on your mouth and nose"},
+            {"virus","bacteria"},
+            {"waving from distance","shaking hands"},
+            {"2 meters","20 meters"},
+            {"yes","no"},
+            {"one time a day","always"},
 
     };
-    private String mCorrectAnswersk[] = {"Thtough droplets that come from your mouth or nose when you cough or breathe out","all of the above","stop going to crowded places and visiting others","no, butmost people get better by themselves","all of the above","yes normal soap and water is enough","no not everyone with covid 19 has symptoms","all of the above","It is not yet known"};
+    private String mCorrectAnswersk[] = {"by water and soap","20 seconds","on your mouth and nose","virus","waving from distance","2 meters","no","always"};
 
     public String getQuestionk(int a){
         String questionk = mQuestionsk[a];
