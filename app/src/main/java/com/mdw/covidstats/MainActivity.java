@@ -26,7 +26,7 @@ et_name = findViewById(R.id.et_name);
             public void onClick(View V){
               if(et_name.getText().toString().isEmpty()){
 Toast.makeText(MainActivity.this,"please enter your name",Toast.LENGTH_SHORT).show();  }else{
-                  startActivity(new Intent(getApplicationContext(),QuizQuestionsActivity.class));
+                  startActivity(new Intent(getApplicationContext(),ChoiceActivity.class));
               }
 
           }
