@@ -11,6 +11,8 @@
         android:theme="@style/Theme.CovidQuiz">
         <activity android:name=".QuizQuestionsActivity"
             android:screenOrientation="portrait"></activity>
+        <activity android:name=".ChoiceActivity"
+            android:screenOrientation="portrait"></activity>
 
         <activity
             android:name=".MainActivity"
