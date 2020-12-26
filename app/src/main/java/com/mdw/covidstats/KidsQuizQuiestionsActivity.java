@@ -12,10 +12,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Random;
 
-public class KidsQuizQuestionsActivity extends AppCompatActivity {
+public class KidsQuizQuiestionsActivity extends AppCompatActivity {
     Button answer1k, answer2k,  retraitk;
 
     TextView scorek,questionk;
@@ -89,7 +88,7 @@ public class KidsQuizQuestionsActivity extends AppCompatActivity {
 
     }
     protected void gameOver(){
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(KidsQuizQuestionsActivity.this);
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(KidsQuizQuiestionsActivity.this);
         alertDialogBuilder
                 .setMessage("Game Over! Your score is " + mScorek + " points.")
                 .setCancelable(false)
@@ -97,7 +96,7 @@ public class KidsQuizQuestionsActivity extends AppCompatActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialogInterface, int i) {
-                                startActivity(new Intent(getApplicationContext(),KidsQuizQuestionsActivity.class));
+                                startActivity(new Intent(getApplicationContext(), KidsQuizQuiestionsActivity.class));
                                 finish();
                             }
                         })

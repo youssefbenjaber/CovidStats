@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".KidsQuizQuestionsActivity">
+    tools:context=".KidsQuizQuiestionsActivity">
 
     <TextView
         android:id="@+id/scorek"
